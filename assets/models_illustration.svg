@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB74D;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF9800;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="particleGrad">
+      <stop offset="0%" style="stop-color:#FFD54F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9800;stop-opacity:0.8" />
+    </radialGradient>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+  
+  <!-- Left Section: Vertex Model -->
+  <g transform="translate(80, 150)">
+    <text x="120" y="0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#E65100" text-anchor="middle">Vertex Model</text>
+    
+    <!-- Organic-looking tissue mesh -->
+    <g transform="translate(10, 40)" filter="url(#shadow)">
+      <!-- Cells with gradient fills -->
+      <path d="M 60,50 L 110,35 L 150,55 L 135,95 L 85,100 L 50,75 Z" fill="url(#cellGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <path d="M 150,55 L 195,50 L 230,80 L 215,120 L 165,115 L 135,95 Z" fill="url(#cellGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <path d="M 85,100 L 135,95 L 165,115 L 150,160 L 100,165 L 70,140 Z" fill="url(#cellGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <path d="M 50,75 L 85,100 L 70,140 L 25,135 L 5,105 Z" fill="url(#cellGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <path d="M 135,95 L 165,115 L 210,125 L 215,120 L 230,80 Z" fill="url(#cellGrad)" stroke="#E65100" stroke-width="2.5"/>
+      
+      <!-- Vertices as prominent nodes -->
+      <circle cx="60" cy="50" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="110" cy="35" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="150" cy="55" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="135" cy="95" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="85" cy="100" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="50" cy="75" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="195" cy="50" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="230" cy="80" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="215" cy="120" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="165" cy="115" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="150" cy="160" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="100" cy="165" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+      <circle cx="70" cy="140" r="6" fill="#FF6F00" stroke="#BF360C" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Center Section: Elastoplastic Model -->
+  <g transform="translate(430, 150)">
+    <text x="140" y="0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#E65100" text-anchor="middle">Continuum Model</text>
+    
+    <!-- Stress field visualization with smooth gradients -->
+    <g transform="translate(0, 50)">
+      <!-- Color-coded stress regions -->
+      <rect x="10" y="20" width="70" height="70" rx="5" fill="#FFF3E0" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      <rect x="90" y="20" width="70" height="70" rx="5" fill="#FFE0B2" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      <rect x="170" y="20" width="70" height="70" rx="5" fill="#FFCC80" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      
+      <rect x="10" y="100" width="70" height="70" rx="5" fill="#FFE0B2" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      <rect x="90" y="100" width="70" height="70" rx="5" fill="#FFB74D" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      <rect x="170" y="100" width="70" height="70" rx="5" fill="#FFA726" stroke="#FF9800" stroke-width="2" opacity="0.9"/>
+      
+      <!-- Stress tensors as ellipses with rotation -->
+      <ellipse cx="45" cy="55" rx="20" ry="10" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(-30 45 55)"/>
+      <ellipse cx="125" cy="55" rx="22" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(-45 125 55)"/>
+      <ellipse cx="205" cy="55" rx="25" ry="15" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(-60 205 55)"/>
+      
+      <ellipse cx="45" cy="135" rx="22" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(15 45 135)"/>
+      <ellipse cx="125" cy="135" rx="28" ry="18" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(0 125 135)"/>
+      <ellipse cx="205" cy="135" rx="30" ry="20" fill="none" stroke="#E65100" stroke-width="2.5" transform="rotate(-20 205 135)"/>
+      
+      <!-- Direction arrows -->
+      <path d="M 125 135 L 125 105" stroke="#BF360C" stroke-width="3" marker-end="url(#arrow)" opacity="0.8"/>
+      <path d="M 125 135 L 155 135" stroke="#BF360C" stroke-width="3" marker-end="url(#arrow)" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Right Section: Particle Model -->
+  <g transform="translate(800, 150)">
+    <text x="140" y="0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#E65100" text-anchor="middle">Particle Model</text>
+    
+    <!-- Particles with interactions -->
+    <g transform="translate(20, 50)" filter="url(#shadow)">
+      <!-- Spring-like connections -->
+      <path d="M 60,60 Q 65,55 70,60 T 80,60 T 90,60 T 100,60" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 180,60 Q 185,55 190,60 T 200,60 T 210,60 T 220,60" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 60,60 Q 55,70 60,80 T 60,100 T 60,120" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 110,70 Q 105,80 110,90 T 110,110 T 110,130" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 230,70 Q 225,80 230,90 T 230,110 T 230,130" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 70,130 Q 80,125 90,130 T 110,130" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      <path d="M 120,130 Q 130,125 140,130 T 160,130 T 180,130" stroke="#FF9800" stroke-width="2.5" fill="none" opacity="0.7"/>
+      
+      <!-- Diagonal connections -->
+      <line x1="110" y1="60" x2="60" y2="130" stroke="#FFB74D" stroke-width="2" stroke-dasharray="4,3" opacity="0.5"/>
+      <line x1="230" y1="60" x2="180" y2="130" stroke="#FFB74D" stroke-width="2" stroke-dasharray="4,3" opacity="0.5"/>
+      
+      <!-- Particles with gradient -->
+      <circle cx="60" cy="60" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="110" cy="60" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="230" cy="60" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="60" cy="130" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="110" cy="130" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="180" cy="130" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      <circle cx="230" cy="130" r="18" fill="url(#particleGrad)" stroke="#E65100" stroke-width="2.5"/>
+      
+      <!-- Force vectors -->
+      <path d="M 110 45 L 110 25" stroke="#BF360C" stroke-width="3" marker-end="url(#arrow)"/>
+      <path d="M 245 130 L 265 130" stroke="#BF360C" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#BF360C"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom label -->
+  <text x="600" y="750" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#E65100" text-anchor="middle" opacity="0.7">Multiscale Computational Frameworks</text>
+</svg>

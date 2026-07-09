@@ -90,12 +90,14 @@ a:hover div {
 
 Hydra regeneration provides a particularly clean system for connecting developmental biology with ideas from active matter. The tissue behaves as an active material whose large-scale organization is shaped by internally generated stresses, continuous remodeling, and orientational order in supracellular actin fibers. From this perspective, regenerating Hydra can be viewed as a living realization of active nematic physics, where topological defects, mechanical constraints, and material flows are not incidental features but part of the mechanism by which robust body axes and morphological structures emerge.
 
-Recent work has made this picture more concrete by showing that mechanical strain is strongly concentrated at specific topological defect sites during regeneration and that external confinement can alter the number and arrangement of body axes that emerge from the same starting tissue.<sup>2,3</sup> Together, these results argue that organizer formation and axial patterning are tightly coupled to geometry and mechanics, rather than being imposed only by a pre-existing biochemical program. In that sense, Hydra serves as a tractable model for mechanochemical self-organization in active living matter, where boundary conditions and internal stress patterns help steer developmental outcomes.<sup>2,3</sup>
+Recent work has made this picture more concrete by showing that mechanical strain is strongly concentrated at specific topological defect sites during regeneration and that external confinement can alter the number and arrangement of body axes that emerge from the same starting tissue.<sup>2,3</sup> A new preprint extends this picture further by showing that sufficiently strong geometric confinement can even reorient the inherited body axis itself, together with a large-scale remodeling of the supracellular actomyosin fiber organization.<sup>P1</sup> Together, these results argue that organizer formation and axial patterning are tightly coupled to geometry and mechanics, rather than being imposed only by a pre-existing biochemical program. In that sense, Hydra serves as a tractable model for mechanochemical self-organization in active living matter, where boundary conditions and internal stress patterns help steer developmental outcomes.<sup>2,3,P1</sup>
 
 <ol>
   <li value="2">Y. Maroudas-Sacks, S. Suganthan, L. Garion, Y. Ascoli-Abbina, A. Westfried, N. Dori, I. Pasvinter, <u>M. Popović</u><sup>&#35;</sup>, K. Keren<sup>&#35;</sup>. <em>Mechanical strain focusing at topological defect sites in regenerating Hydra</em>, <strong>Development</strong>, 152(4) (2025).</li>
   <li value="3">Y. Maroudas-Sacks, L. Garion, S. Suganthan, <u>M. Popović</u>, K. Keren. <em>Confinement modulates axial patterning in regenerating Hydra</em>, <strong>PRX Life</strong>, 2, 043007 (2024).</li>
 </ol>
+
+<p><strong>P1.</strong> A. Westfried, L. Garion, <u>M. Popović</u>, K. Keren. <em>Body-Axis Reorientation in Regenerating Hydra under Geometric Confinement</em>, <strong>bioRxiv</strong>, <a href="https://doi.org/10.64898/2026.06.25.734673">10.64898/2026.06.25.734673</a> (2026).</p>
 
 ---
 

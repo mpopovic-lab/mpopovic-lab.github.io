@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "New bioRxiv Preprint on Hydra Regeneration"
+title: "Regenerating Hydra under Confinement"
 date: 2026-07-09 12:00:00 +0200
 author_profile: true
 classes: wide

@@ -103,12 +103,27 @@ Recent work has made this picture more concrete by showing that mechanical strai
 ## Tissue Folding {#tissue-folding}
 {: style="color: #9C27B0;"}
 
-Tissue folding is one of the clearest manifestations of how local cellular processes are converted into organ-scale shape changes. This work asks how cell rearrangements, cell-shape changes, proliferation, and mechanical feedback combine to drive folds, eversion events, and other morphogenetic transformations in epithelial tissues. Much of this effort has focused on the Drosophila wing, where quantitative imaging and theory make it possible to connect measured cell dynamics to the emerging geometry of the tissue.<sup>5,14</sup>
+Tissue folding is one of the clearest manifestations of how local cellular processes are converted into organ-scale shape changes. This work asks how cell rearrangements, cell-shape changes, proliferation, and mechanical feedback combine to drive folds, eversion events, and other morphogenetic transformations in epithelial tissues. Much of this effort has focused on the Drosophila wing, where quantitative imaging and theory make it possible to connect measured cell dynamics to the emerging geometry of the tissue.<sup>5,P2</sup>
 
-Across this work, the goal is to move beyond descriptive accounts of folding toward predictive physical principles. Studies on mechanosensitive feedback, tissue flow inference, and wing-disc eversion all point to the same general picture: folds and large deformations are collective phenomena that arise from distributed stresses rather than isolated local triggers.<sup>5,14</sup> A key objective is to identify which combinations of forces, material properties, and feedback rules make a tissue robustly fold in the right place and at the right time.
+Across this work, the goal is to move beyond descriptive accounts of folding toward predictive physical principles. Studies on wing-disc eversion and on the role of the apical extracellular matrix in guiding fold morphogenesis point to the same general picture: folds and large deformations are collective phenomena that arise from distributed stresses, material constraints, and coordinated tissue remodeling rather than isolated local triggers.<sup>5,P2</sup> A key objective is to identify which combinations of forces, material properties, and feedback rules make a tissue robustly fold in the right place and at the right time.
 
 <ol>
   <li value="5">J. F. Fuhrmann, A. Krishna, J. Paijmans, C. Duclut, G. Cwikla, S. Eaton, <u>M. Popović</u>, F. Jülicher, C. D. Modes, and N. A. Dye. <em>Active shape programming drives Drosophila wing disc eversion</em>, <strong>Science Advances</strong>, 10(32) (2024).</li>
+</ol>
+
+<p><strong>P2.</strong> J. Fuhrmann<sup>&#42;</sup>, V. M. Schimmenti<sup>&#42;</sup>, G. Cwikla, S. Lee, M. Yuan, M. Wilsch-Bräuninger, F. Jülicher, <u>M. Popović</u><sup>&#35;</sup>, N. A. Dye<sup>&#35;</sup>. <em>Apical extracellular matrix regulates fold morphogenesis in the Drosophila wing disc</em>, <strong>bioRxiv</strong> 2025.09.06.674631 (2025).</p>
+
+---
+
+## Biological Tissues as Active Solids {#active-solids}
+{: style="color: #6A8F3A;"}
+
+Biological tissues often behave as active solids: they can store elastic stresses over long timescales, yet continuously remodel through active cellular processes. This research direction asks how tissue-scale material properties emerge from cell-level activity, and how ideas from soft condensed matter and active matter can be used to describe epithelial organization and morphogenesis.<sup>4,14</sup>
+
+Within this perspective, tissue form is not imposed only by genetic or biochemical programs, but also by feedback between stress, cell shape, and active remodeling. A central theme is that tissues can self-organize mechanical patterns while remaining far from equilibrium, making them a distinctive class of living soft materials. This includes epithelial tissues that pattern their morphology through mechanosensitive feedback, as well as three-dimensional organoid-like systems that undergo coherent active rotations and spontaneously break chiral symmetry.<sup>4,14</sup>
+
+<ol>
+  <li value="4">T. H. Tan<sup>&#42;</sup>, A. Amiri<sup>&#42;</sup>, I. Seijo-Barandiarán<sup>&#42;</sup>, M. F. Staddon, A. Materne, S. Tomas, C. Duclut, <u>M. Popović</u><sup>&#35;</sup>, A. Grapin-Botton<sup>&#35;</sup>, F. Jülicher<sup>&#35;</sup>. <em>Emergent chirality in active solid rotation of pancreas spheres</em>, <strong>PRX Life</strong>, 2, 033006 (2024).</li>
   <li value="14">N. A. Dye<sup>&#42;</sup>, <u>M. Popović</u><sup>&#42;</sup>, K. V. Iyer, J. F. Fuhrmann, R. Piscitello-Gómez, S. Eaton, F. Jülicher. <em>Self-organized patterning of cell morphology via mechanosensitive feedback</em>, <strong>eLife</strong>, 10, e57964 (2021).</li>
 </ol>
 

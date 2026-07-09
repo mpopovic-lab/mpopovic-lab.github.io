@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "Pierre-Gilles de Gennes Prize"
-date: 2026-07-09
+date: 2026-07-08 12:00:00 +0200
 author_profile: true
 classes: wide
+published: true
 ---
 
 ![Pierre-Gilles de Gennes Prize award photo](/assets/images/pgdg_photo.jpg)

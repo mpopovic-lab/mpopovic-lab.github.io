@@ -8,8 +8,30 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.author__avatar img {
+.author__avatar {
   width: 140px;
   height: 140px;
+  overflow: hidden;
+}
+
+.author__avatar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.author__avatar img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
   object-fit: cover;
+  object-position: center top;
+  border-radius: 0;
+  padding: 0;
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    opacity: 1;
+  }
 }

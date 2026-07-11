@@ -8,11 +8,13 @@ classes: wide
 
 ## Research Interests
 
-Marko Popovic's work combines theoretical physics with biological problems, with particular focus on:
+I combine theoretical physics with biological problems, with particular focus on:
 
-- **Tissue Mechanics and Morphogenesis**: Understanding how tissues fold, flow, and shape themselves during development
-- **Biological tissues as active amorphous solids**: Investigating mechanical properties of soft and amorphous materials, from epithelial tissues to glass-forming systems
-- **Theoretical Models**: Vertex models, elastoplastic models, and particle-based descriptions of tissues
+- **Hydra Regeneration**: Mechanical and geometric control of body-axis formation and morphogenesis
+- **Tissue Folding**: Physical mechanisms of folding, eversion, and organ-scale shape change in epithelia
+- **Biological Tissues as Active Solids**: How living tissues store stress, remodel, and self-organize as active materials
+- **Plasticity and Yielding**: Mechanical response, irreversibility, and flow in tissues and amorphous materials
+- **Order and Disorder**: How proliferation, heterogeneity, and mechanics shape structural organization in developing tissues
 
 ---
 

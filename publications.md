@@ -41,8 +41,10 @@ The hash <sup>&#35;</sup> indicates co-corresponding authorship.
 
 ### Preprints
 
-1. A. Westfried, L. Garion, <u>M. Popović</u>, K. Keren. *Body-Axis Reorientation in Regenerating Hydra under Geometric Confinement*, **bioRxiv**. <a href="https://doi.org/10.64898/2026.06.25.734673">10.64898/2026.06.25.734673</a> (2026). [Preprint](https://doi.org/10.64898/2026.06.25.734673)
-2. M. F. Staddon, N. A. Dye, <u>M. Popović</u><sup>&#35;</sup>, F. Jülicher<sup>&#35;</sup>. *Cell proliferation maintains cell area polydispersity in the growing fruit fly wing epithelium*, **arXiv**:2601.14509 (2026). [Preprint](https://arxiv.org/abs/2601.14509)
-3. J. Fuhrmann<sup>&#42;</sup>, V. M. Schimmenti<sup>&#42;</sup>, G. Cwikla, S. Lee, M. Yuan, M. Wilsch-Bräuninger, F. Jülicher, <u>M. Popović</u><sup>&#35;</sup>, N. A. Dye<sup>&#35;</sup>. *Apical extracellular matrix regulates fold morphogenesis in the Drosophila wing disc*, **bioRxiv** 2025.09.06.674631 (2025). [Preprint](https://doi.org/10.1101/2025.09.06.674631)
-4. K. Chhajed, F. S. Gruber, R. Etournay, N. A. Dye, F. Jülicher, <u>M. Popović</u>. *Cell size heterogeneity controls crystallization of the developing fruit fly wing*, **arXiv**:2505.05437 (2025). [Preprint](https://arxiv.org/abs/2505.05437)
-5. <u>M. Popović</u>, J. Prost, F. Jülicher. *Electrohydraulic activity of biological cells*, **arXiv**:2211.06909 (2022). [Preprint](https://arxiv.org/abs/2211.06909)
+1. A. Tahaei, <u>M. Popović</u>. *Signature of mechanically induced cell extrusions in cell size distribution*, **arXiv**:2609.21702 (2026). [Preprint](https://arxiv.org/abs/2609.21702)
+2. A. Westfried, L. Garion, <u>M. Popović</u>, K. Keren. *Body-Axis Reorientation in Regenerating Hydra under Geometric Confinement*, **bioRxiv**. <a href="https://doi.org/10.64898/2026.06.25.734673">10.64898/2026.06.25.734673</a> (2026). [Preprint](https://doi.org/10.64898/2026.06.25.734673)
+3. A. Tahaei, A. Manna, <u>M. Popović</u>. *Cell divisions suppress dynamical correlations in solid tissues*, **arXiv**:2605.12109 (2026). [Preprint](https://arxiv.org/abs/2605.12109)
+4. M. F. Staddon, N. A. Dye, <u>M. Popović</u><sup>&#35;</sup>, F. Jülicher<sup>&#35;</sup>. *Cell proliferation maintains cell area polydispersity in the growing fruit fly wing epithelium*, **arXiv**:2601.14509 (2026). [Preprint](https://arxiv.org/abs/2601.14509)
+5. J. Fuhrmann<sup>&#42;</sup>, V. M. Schimmenti<sup>&#42;</sup>, G. Cwikla, S. Lee, M. Yuan, M. Wilsch-Bräuninger, F. Jülicher, <u>M. Popović</u><sup>&#35;</sup>, N. A. Dye<sup>&#35;</sup>. *Apical extracellular matrix regulates fold morphogenesis in the Drosophila wing disc*, **bioRxiv** 2025.09.06.674631 (2025). [Preprint](https://doi.org/10.1101/2025.09.06.674631)
+6. K. Chhajed, F. S. Gruber, R. Etournay, N. A. Dye, F. Jülicher, <u>M. Popović</u>. *Cell size heterogeneity controls crystallization of the developing fruit fly wing*, **arXiv**:2505.05437 (2025). [Preprint](https://arxiv.org/abs/2505.05437)
+7. <u>M. Popović</u>, J. Prost, F. Jülicher. *Electrohydraulic activity of biological cells*, **arXiv**:2211.06909 (2022). [Preprint](https://arxiv.org/abs/2211.06909)

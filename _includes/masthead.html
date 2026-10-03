@@ -60,12 +60,19 @@
     var canHover = window.matchMedia("(hover: hover) and (pointer: fine)");
 
     document.querySelectorAll(".nav-dropdown").forEach(function (dropdown) {
+      var closeTimer;
+
       dropdown.addEventListener("mouseenter", function () {
-        if (canHover.matches) dropdown.open = true;
+        if (!canHover.matches) return;
+        window.clearTimeout(closeTimer);
+        dropdown.open = true;
       });
 
       dropdown.addEventListener("mouseleave", function () {
-        if (canHover.matches) dropdown.open = false;
+        if (!canHover.matches) return;
+        closeTimer = window.setTimeout(function () {
+          dropdown.open = false;
+        }, 350);
       });
     });
   })();

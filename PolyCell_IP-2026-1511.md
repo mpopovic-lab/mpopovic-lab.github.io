@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Mechanics of epithelial tissues with cell size heterogeneity"
-permalink: /projects/cell-size-heterogeneity/
+permalink: /projects/PolyCell_IP-2026-1511/
 author_profile: false
 classes: wide
 excerpt: "An HRZZ-funded research project on how differences in cell size shape the organisation and mechanics of epithelial tissues."

@@ -7,7 +7,7 @@ main:
   - title: "Projects"
     children:
       - title: "PolyCell — IP-2026-1511"
-        url: /projects/cell-size-heterogeneity/
+        url: /projects/PolyCell_IP-2026-1511/
   - title: "Publications"
     url: /publications/
   - title: "News"

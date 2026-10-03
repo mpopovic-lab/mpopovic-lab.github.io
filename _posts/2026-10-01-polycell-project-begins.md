@@ -11,4 +11,4 @@ The Croatian Science Foundation project **PolyCell — IP-2026-1511** started on
 
 Using vertex models, statistical-physics methods, and numerical simulations, the project will connect variability at the level of individual cells to tissue-scale structure and mechanics. PolyCell is hosted at the Ruđer Bošković Institute and runs until 30 September 2029.
 
-[Read more about the project.](/projects/cell-size-heterogeneity/)
+[Read more about the project.](/projects/PolyCell_IP-2026-1511/)

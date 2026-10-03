@@ -35,3 +35,154 @@ search: false
     opacity: 1;
   }
 }
+
+/* Softer, editorial link color for news titles on Home and News. */
+.layout--home .archive__item-title a,
+.layout--home .archive__item-title a:visited,
+.layout--posts .archive__item-title a,
+.layout--posts .archive__item-title a:visited {
+  color: #245b46;
+}
+
+.layout--home .archive__item-title a:hover,
+.layout--home .archive__item-title a:focus,
+.layout--posts .archive__item-title a:hover,
+.layout--posts .archive__item-title a:focus {
+  color: #163f30;
+  text-decoration: underline;
+}
+
+/* Project dropdown in the primary navigation. Project links are populated
+   from the `children` list in _data/navigation.yml. */
+.greedy-nav .visible-links {
+  overflow: visible;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown summary {
+  position: relative;
+  display: block;
+  margin: 0 1rem;
+  padding-inline-end: 1rem;
+  color: inherit;
+  cursor: pointer;
+  list-style: none;
+}
+
+.nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-dropdown summary::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  inset-inline-end: 0;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.nav-dropdown[open] summary::after {
+  transform: translateY(-30%) rotate(225deg);
+}
+
+.nav-dropdown:not([open]) > .nav-dropdown__menu {
+  display: none;
+}
+
+.nav-dropdown:hover > .nav-dropdown__menu,
+.nav-dropdown:focus-within > .nav-dropdown__menu {
+  display: block;
+}
+
+.nav-dropdown summary::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: 0;
+  width: calc(100% - 1rem);
+  height: 4px;
+  background: $primary-color;
+  transform: scaleX(0);
+  transition: $global-transition;
+}
+
+.nav-dropdown:hover summary::before,
+.nav-dropdown:focus-within summary::before,
+.nav-dropdown[open] summary::before {
+  transform: scaleX(1);
+}
+
+.nav-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  inset-inline-start: 0;
+  z-index: 100;
+  min-width: 15rem;
+  padding: 0.35rem !important;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: $background-color;
+  box-shadow: 0 2px 10px rgba(#000, 0.14);
+}
+
+.nav-dropdown__menu li {
+  display: block;
+}
+
+.greedy-nav .nav-dropdown__menu a {
+  margin: 0;
+  padding: 0.65rem 0.8rem;
+  border-radius: calc(#{$border-radius} / 2);
+  font-size: $type-size-6;
+}
+
+.greedy-nav .nav-dropdown__menu a::before {
+  display: none;
+}
+
+.greedy-nav .nav-dropdown__menu a:hover,
+.greedy-nav .nav-dropdown__menu a:focus {
+  background: $navicon-link-color-hover;
+}
+
+/* If GreedyNav moves Projects into its compact menu, keep the project list
+   nested inside that menu rather than opening a second floating panel. */
+.greedy-nav .hidden-links .nav-dropdown summary {
+  margin: 0;
+  padding: 10px 42px 10px 20px;
+  font-size: $type-size-5;
+}
+
+.greedy-nav .hidden-links .nav-dropdown summary::after {
+  inset-inline-end: 20px;
+}
+
+.greedy-nav .hidden-links .nav-dropdown summary::before {
+  display: none;
+}
+
+.greedy-nav .hidden-links .nav-dropdown__menu {
+  position: static;
+  min-width: 0;
+  padding: 0 5px 5px 18px !important;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.greedy-nav .hidden-links .nav-dropdown__menu li {
+  border: 0;
+}
+
+.greedy-nav .hidden-links .nav-dropdown__menu a {
+  padding: 8px 12px;
+  font-size: $type-size-6;
+}

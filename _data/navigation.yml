@@ -4,6 +4,10 @@ main:
     url: /
   - title: "Research"
     url: /research/
+  - title: "Projects"
+    children:
+      - title: "PolyCell — IP-2026-1511"
+        url: /projects/cell-size-heterogeneity/
   - title: "Publications"
     url: /publications/
   - title: "News"

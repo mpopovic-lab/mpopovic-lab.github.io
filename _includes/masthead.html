@@ -13,12 +13,29 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a
-                href="{{ link.url | relative_url }}"
-                {% if link.description %} title="{{ link.description }}"{% endif %}
-                {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
+            <li class="masthead__menu-item{% if link.children %} masthead__menu-item--dropdown{% endif %}">
+              {% if link.children %}
+                <details class="nav-dropdown">
+                  <summary>{{ link.title }}</summary>
+                  <ul class="nav-dropdown__menu">
+                    {%- for child in link.children -%}
+                      <li>
+                        <a
+                          href="{{ child.url | relative_url }}"
+                          {% if child.description %} title="{{ child.description }}"{% endif %}
+                          {% if child.target %} target="{{ child.target }}"{% endif %}
+                        >{{ child.title }}</a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </details>
+              {% else %}
+                <a
+                  href="{{ link.url | relative_url }}"
+                  {% if link.description %} title="{{ link.description }}"{% endif %}
+                  {% if link.target %} target="{{ link.target }}"{% endif %}
+                >{{ link.title }}</a>
+              {% endif %}
             </li>
           {%- endfor -%}
         </ul>
@@ -37,3 +54,19 @@
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var canHover = window.matchMedia("(hover: hover) and (pointer: fine)");
+
+    document.querySelectorAll(".nav-dropdown").forEach(function (dropdown) {
+      dropdown.addEventListener("mouseenter", function () {
+        if (canHover.matches) dropdown.open = true;
+      });
+
+      dropdown.addEventListener("mouseleave", function () {
+        if (canHover.matches) dropdown.open = false;
+      });
+    });
+  })();
+</script>

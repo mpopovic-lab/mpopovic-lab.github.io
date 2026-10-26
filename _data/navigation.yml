@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Research"
     url: /research/
+  - title: "Team"
+    url: /team/
   - title: "Projects"
     children:
       - title: "PolyCell — IP-2026-1511"
